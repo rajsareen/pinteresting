@@ -1,7 +1,17 @@
-$body-bg:		#ecf0f1;
-$navbar-default-bg: #FC103A;
-$navbar-default-link-color: #ffffff;
-$brand-primary: #fc103a;
-$navbar-border-radius: 0px;
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic);
+$body-bg:						#ecf0f1;
+$font-family-sans-serif:		'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-bg: 			#FC103A;
+$navbar-default-link-color: 	#ffffff;
+$brand-primary: 				#fc103a;
+$navbar-border-radius: 			0px;
 
 @import 'bootstrap';
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
